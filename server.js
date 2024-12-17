@@ -16,7 +16,7 @@ createFile("data/post.json", "content here");
 //Routing
 //home route
 app.get("/", (req, res) => {
-  res.send("This is Home Route edited!");
+  res.send("This is Home Route edited second time!");
 });
 
 //fetch all posts
